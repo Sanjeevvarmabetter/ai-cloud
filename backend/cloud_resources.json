@@ -1,0 +1,439 @@
+[
+  {
+    "resource_id": "lambda-001",
+    "type": "Lambda",
+    "region": "ap-south-1",
+    "timeout": 686,
+    "public_endpoint": false,
+    "last_invoked": "2025-08-27"
+  },
+  {
+    "resource_id": "rds-002",
+    "type": "RDS",
+    "region": "us-east-1",
+    "publicly_accessible": false,
+    "encrypted": true,
+    "instance_type": "db.m5.large"
+  },
+  {
+    "resource_id": "rds-003",
+    "type": "RDS",
+    "region": "eu-west-1",
+    "publicly_accessible": false,
+    "encrypted": false,
+    "instance_type": "db.m5.large"
+  },
+  {
+    "resource_id": "iam-004",
+    "type": "IAM",
+    "region": "us-west-2",
+    "permissions": [
+      "read-only"
+    ],
+    "last_used": "2025-08-08"
+  },
+  {
+    "resource_id": "rds-005",
+    "type": "RDS",
+    "region": "us-west-2",
+    "publicly_accessible": true,
+    "encrypted": true,
+    "instance_type": "db.m5.large"
+  },
+  {
+    "resource_id": "lambda-006",
+    "type": "Lambda",
+    "region": "us-west-2",
+    "timeout": 30,
+    "public_endpoint": false,
+    "last_invoked": "2025-08-30"
+  },
+  {
+    "resource_id": "s3-007",
+    "type": "S3",
+    "region": "us-west-2",
+    "public_access": true,
+    "encryption": true,
+    "size_mb": 4049
+  },
+  {
+    "resource_id": "lambda-008",
+    "type": "Lambda",
+    "region": "eu-west-1",
+    "timeout": 707,
+    "public_endpoint": false,
+    "last_invoked": "2025-08-29"
+  },
+  {
+    "resource_id": "rds-009",
+    "type": "RDS",
+    "region": "ap-south-1",
+    "publicly_accessible": true,
+    "encrypted": true,
+    "instance_type": "db.m5.large"
+  },
+  {
+    "resource_id": "s3-010",
+    "type": "S3",
+    "region": "ap-south-1",
+    "public_access": true,
+    "encryption": false,
+    "size_mb": 257
+  },
+  {
+    "resource_id": "iam-011",
+    "type": "IAM",
+    "region": "eu-west-1",
+    "permissions": [
+      "read-only"
+    ],
+    "last_used": "2025-08-20"
+  },
+  {
+    "resource_id": "rds-012",
+    "type": "RDS",
+    "region": "us-east-1",
+    "publicly_accessible": false,
+    "encrypted": true,
+    "instance_type": "db.m5.large"
+  },
+  {
+    "resource_id": "rds-013",
+    "type": "RDS",
+    "region": "ap-south-1",
+    "publicly_accessible": false,
+    "encrypted": false,
+    "instance_type": "db.m5.large"
+  },
+  {
+    "resource_id": "rds-014",
+    "type": "RDS",
+    "region": "us-east-1",
+    "publicly_accessible": false,
+    "encrypted": false,
+    "instance_type": "db.m5.large"
+  },
+  {
+    "resource_id": "lambda-015",
+    "type": "Lambda",
+    "region": "ap-south-1",
+    "timeout": 864,
+    "public_endpoint": false,
+    "last_invoked": "2025-08-27"
+  },
+  {
+    "resource_id": "s3-016",
+    "type": "S3",
+    "region": "eu-west-1",
+    "public_access": true,
+    "encryption": false,
+    "size_mb": 463
+  },
+  {
+    "resource_id": "vm-017",
+    "type": "VM",
+    "region": "us-east-1",
+    "ports": [
+      22,
+      3389,
+      443
+    ],
+    "public": false,
+    "tags": {
+      "env": "test"
+    },
+    "traffic_volume": 102
+  },
+  {
+    "resource_id": "iam-018",
+    "type": "IAM",
+    "region": "ap-south-1",
+    "permissions": [
+      "write-only"
+    ],
+    "last_used": "2025-08-07"
+  },
+  {
+    "resource_id": "s3-019",
+    "type": "S3",
+    "region": "ap-south-1",
+    "public_access": true,
+    "encryption": false,
+    "size_mb": 2760
+  },
+  {
+    "resource_id": "lambda-020",
+    "type": "Lambda",
+    "region": "ap-south-1",
+    "timeout": 44,
+    "public_endpoint": false,
+    "last_invoked": "2025-08-29"
+  },
+  {
+    "resource_id": "lambda-021",
+    "type": "Lambda",
+    "region": "eu-west-1",
+    "timeout": 820,
+    "public_endpoint": false,
+    "last_invoked": "2025-08-28"
+  },
+  {
+    "resource_id": "vm-022",
+    "type": "VM",
+    "region": "eu-west-1",
+    "ports": [
+      80,
+      22,
+      3389
+    ],
+    "public": false,
+    "tags": {
+      "env": "prod"
+    },
+    "traffic_volume": 426
+  },
+  {
+    "resource_id": "lambda-023",
+    "type": "Lambda",
+    "region": "ap-south-1",
+    "timeout": 780,
+    "public_endpoint": true,
+    "last_invoked": "2025-08-28"
+  },
+  {
+    "resource_id": "lambda-024",
+    "type": "Lambda",
+    "region": "eu-west-1",
+    "timeout": 527,
+    "public_endpoint": false,
+    "last_invoked": "2025-08-28"
+  },
+  {
+    "resource_id": "s3-025",
+    "type": "S3",
+    "region": "us-west-2",
+    "public_access": true,
+    "encryption": true,
+    "size_mb": 4953
+  },
+  {
+    "resource_id": "rds-026",
+    "type": "RDS",
+    "region": "us-west-2",
+    "publicly_accessible": true,
+    "encrypted": false,
+    "instance_type": "db.t3.micro"
+  },
+  {
+    "resource_id": "vm-027",
+    "type": "VM",
+    "region": "us-east-1",
+    "ports": [
+      443,
+      80
+    ],
+    "public": true,
+    "tags": {
+      "env": "prod"
+    },
+    "traffic_volume": 203
+  },
+  {
+    "resource_id": "vm-028",
+    "type": "VM",
+    "region": "us-east-1",
+    "ports": [
+      22,
+      3389
+    ],
+    "public": true,
+    "tags": {
+      "env": "test"
+    },
+    "traffic_volume": 233
+  },
+  {
+    "resource_id": "iam-029",
+    "type": "IAM",
+    "region": "us-east-1",
+    "permissions": [
+      "read-only"
+    ],
+    "last_used": "2025-08-21"
+  },
+  {
+    "resource_id": "iam-030",
+    "type": "IAM",
+    "region": "eu-west-1",
+    "permissions": [
+      "*"
+    ],
+    "last_used": "2025-08-05"
+  },
+  {
+    "resource_id": "iam-031",
+    "type": "IAM",
+    "region": "eu-west-1",
+    "permissions": [
+      "read-only"
+    ],
+    "last_used": "2025-08-31"
+  },
+  {
+    "resource_id": "lambda-032",
+    "type": "Lambda",
+    "region": "ap-south-1",
+    "timeout": 342,
+    "public_endpoint": true,
+    "last_invoked": "2025-09-01"
+  },
+  {
+    "resource_id": "lambda-033",
+    "type": "Lambda",
+    "region": "us-east-1",
+    "timeout": 25,
+    "public_endpoint": true,
+    "last_invoked": "2025-08-29"
+  },
+  {
+    "resource_id": "s3-034",
+    "type": "S3",
+    "region": "ap-south-1",
+    "public_access": false,
+    "encryption": true,
+    "size_mb": 2512
+  },
+  {
+    "resource_id": "rds-035",
+    "type": "RDS",
+    "region": "eu-west-1",
+    "publicly_accessible": true,
+    "encrypted": true,
+    "instance_type": "db.t3.micro"
+  },
+  {
+    "resource_id": "lambda-036",
+    "type": "Lambda",
+    "region": "ap-south-1",
+    "timeout": 105,
+    "public_endpoint": false,
+    "last_invoked": "2025-09-02"
+  },
+  {
+    "resource_id": "s3-037",
+    "type": "S3",
+    "region": "us-west-2",
+    "public_access": true,
+    "encryption": true,
+    "size_mb": 1325
+  },
+  {
+    "resource_id": "rds-038",
+    "type": "RDS",
+    "region": "eu-west-1",
+    "publicly_accessible": true,
+    "encrypted": false,
+    "instance_type": "db.t3.micro"
+  },
+  {
+    "resource_id": "s3-039",
+    "type": "S3",
+    "region": "us-east-1",
+    "public_access": false,
+    "encryption": false,
+    "size_mb": 1838
+  },
+  {
+    "resource_id": "iam-040",
+    "type": "IAM",
+    "region": "ap-south-1",
+    "permissions": [
+      "*"
+    ],
+    "last_used": "2025-08-19"
+  },
+  {
+    "resource_id": "lambda-041",
+    "type": "Lambda",
+    "region": "ap-south-1",
+    "timeout": 830,
+    "public_endpoint": false,
+    "last_invoked": "2025-08-30"
+  },
+  {
+    "resource_id": "iam-042",
+    "type": "IAM",
+    "region": "us-east-1",
+    "permissions": [
+      "write-only"
+    ],
+    "last_used": "2025-08-16"
+  },
+  {
+    "resource_id": "iam-043",
+    "type": "IAM",
+    "region": "us-east-1",
+    "permissions": [
+      "*"
+    ],
+    "last_used": "2025-08-31"
+  },
+  {
+    "resource_id": "s3-044",
+    "type": "S3",
+    "region": "eu-west-1",
+    "public_access": true,
+    "encryption": true,
+    "size_mb": 3030
+  },
+  {
+    "resource_id": "iam-045",
+    "type": "IAM",
+    "region": "us-east-1",
+    "permissions": [
+      "read-only"
+    ],
+    "last_used": "2025-08-21"
+  },
+  {
+    "resource_id": "iam-046",
+    "type": "IAM",
+    "region": "eu-west-1",
+    "permissions": [
+      "*"
+    ],
+    "last_used": "2025-08-07"
+  },
+  {
+    "resource_id": "s3-047",
+    "type": "S3",
+    "region": "us-east-1",
+    "public_access": true,
+    "encryption": false,
+    "size_mb": 4256
+  },
+  {
+    "resource_id": "s3-048",
+    "type": "S3",
+    "region": "eu-west-1",
+    "public_access": false,
+    "encryption": true,
+    "size_mb": 1629
+  },
+  {
+    "resource_id": "rds-049",
+    "type": "RDS",
+    "region": "us-east-1",
+    "publicly_accessible": false,
+    "encrypted": false,
+    "instance_type": "db.m5.large"
+  },
+  {
+    "resource_id": "s3-050",
+    "type": "S3",
+    "region": "eu-west-1",
+    "public_access": false,
+    "encryption": false,
+    "size_mb": 1890
+  }
+]
