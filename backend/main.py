@@ -22,7 +22,7 @@ app.add_middleware(
 MONGO_USER = environ.get("MONGO_USER", "admin")
 MONGO_PASS = environ.get("MONGO_PASS", "admin")
 client = MongoClient(
-    f"mongodb+srv://{MONGO_USER}:{MONGO_PASS}@cluster0.bygpxol.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    f"mongodb+srv://admin:admin@cluster0.zs7jdwh.mongodb.net/?appName=Cluster0"
 )
 db = client["cspm_db"]
 collection = db["resources"]
