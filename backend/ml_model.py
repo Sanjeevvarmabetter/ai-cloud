@@ -42,7 +42,8 @@ def train_and_predict():
         print(f"Predictions: {predictions}")
 
         for i, res in enumerate(resources):
-            score = -model.decision_function([X[i]])[0] * 100
+            raw_score = model.decision_function([X[i]])[0]
+            score =  (1 - raw_score) * 50
             risk = "High" if predictions[i] == -1 else "Low"
             print(f"Updating {res['resource_id']}: Score={score}, Risk={risk}")
             result = collection.update_one(
